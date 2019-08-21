@@ -1,0 +1,556 @@
+
+@prefix : <http://example.org/owlim/> .
+@prefix lexicog: <http://www.w3.org/ns/lemon/lexicog#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix synsem: <http://www.w3.org/ns/lemon/synsem#> .
+@prefix lexinfo: <http://www.lexinfo.net/ontology/2.0/lexinfo#> .
+@prefix lime: <http://www.w3.org/ns/lemon/lime#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix contact: <http://www.w3.org/2000/10/swap/pim/contact#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+		
+
+# LEXICOGRAPHIC RESOURCE -------------------------------------------
+ 
+:Kurmanji_Dictionary a lexicog:LexicographicResource ;
+    dct:title ""@en ;
+    dct:description "" ;
+    rdfs:label ""@en ;
+    dct:created "2019-08-21"^^xsd:date ;
+    dct:modified "2019-08-21"^^xsd:date ;
+    owl:versionInfo "0.1" ;
+    cc:license "" ;
+    dct:creator "" ;
+	dc:contributer "" ;
+	dct:language <www.lexvo.org/page/iso639-3/kmr> ;
+	lexicog:entry :kmr_9287996565_entry ;
+	lexicog:entry :kmr_2662454445_entry ;
+	lexicog:entry :kmr_1819693629_entry ;
+	lexicog:entry :kmr_3098624360_entry ;
+	lexicog:entry :kmr_8024739279_entry ;
+	lexicog:entry :kmr_4428846815_entry ;
+	lexicog:entry :kmr_4140358135_entry ;
+	lexicog:entry :kmr_7734607660_entry ;
+	lexicog:entry :kmr_6290265038_entry ;
+	lexicog:entry :kmr_0516167955_entry ;
+	lexicog:entry :kmr_0409769573_entry ;
+	lexicog:entry :kmr_4071831077_entry ;
+	lexicog:entry :kmr_2535202920_entry ;
+	lexicog:entry :kmr_9399406678_entry ;
+	lexicog:entry :kmr_5251087995_entry ;
+	lexicog:entry :kmr_9536758457_entry .
+
+:kmr_9287996565_entry a lexicog:Entry ;
+	rdfs:member :kmr_9287996565_comp .
+
+:kmr_2662454445_entry a lexicog:Entry ;
+	rdfs:member :kmr_2662454445_comp .
+
+:kmr_1819693629_entry a lexicog:Entry ;
+	rdfs:member :kmr_1819693629_comp .
+
+:kmr_3098624360_entry a lexicog:Entry ;
+	rdfs:member :kmr_3098624360_comp .
+
+:kmr_8024739279_entry a lexicog:Entry ;
+	rdfs:member :kmr_8024739279_comp .
+
+:kmr_4428846815_entry a lexicog:Entry ;
+	rdfs:member :kmr_4428846815_comp .
+
+:kmr_4140358135_entry a lexicog:Entry ;
+	rdfs:member :kmr_4140358135_comp .
+
+:kmr_7734607660_entry a lexicog:Entry ;
+	rdfs:member :kmr_7734607660_comp .
+
+:kmr_6290265038_entry a lexicog:Entry ;
+	rdfs:member :kmr_6290265038_comp .
+
+:kmr_0516167955_entry a lexicog:Entry ;
+	rdfs:member :kmr_0516167955_comp .
+
+:kmr_0409769573_entry a lexicog:Entry ;
+	rdfs:member :kmr_0409769573_comp .
+
+:kmr_4071831077_entry a lexicog:Entry ;
+	rdfs:member :kmr_4071831077_comp .
+
+:kmr_2535202920_entry a lexicog:Entry ;
+	rdfs:member :kmr_2535202920_comp .
+
+:kmr_9399406678_entry a lexicog:Entry ;
+	rdfs:member :kmr_4071831077_comp ;
+	owl:sameAs :kmr_4071831077_entry .
+
+:kmr_5251087995_entry a lexicog:Entry ;
+	rdfs:member :kmr_2535202920_comp ;
+	owl:sameAs :kmr_2535202920_entry .
+
+:kmr_9536758457_entry a lexicog:Entry ;
+	rdfs:member :kmr_9536758457_comp .
+
+:kmr_9287996565_comp rdf:_0 :kmr_6594385258_sense_0_comp .
+
+:kmr_2662454445_comp rdf:_0 :kmr_1189707542_sense_0_comp .
+
+:kmr_1819693629_comp rdf:_0 :kmr_0080488046_sense_0_comp .
+
+:kmr_3098624360_comp rdf:_0 :kmr_7337432202_sense_0_comp .
+
+:kmr_8024739279_comp rdf:_0 :kmr_6587839407_sense_0_comp .
+
+:kmr_4428846815_comp rdf:_0 :kmr_6192328034_sense_0_comp .
+
+:kmr_4140358135_comp rdf:_0 :kmr_3514048402_sense_0_comp .
+
+:kmr_7734607660_comp rdf:_0 :kmr_4791796660_sense_0_comp .
+
+:kmr_6290265038_comp rdf:_0 :kmr_7844971795_sense_0_comp .
+
+:kmr_0516167955_comp rdf:_0 :kmr_2079251496_sense_0_comp .
+
+:kmr_0409769573_comp rdf:_0 :kmr_9191880776_sense_0_comp .
+
+:kmr_4071831077_comp rdf:_0 :kmr_1390320763_sense_0_comp .
+
+:kmr_2535202920_comp rdf:_0 :kmr_6116911546_sense_0_comp ;
+ rdf:_1 :kmr_9777672340_sense_1_comp .
+
+:kmr_9536758457_comp rdf:_0 :kmr_1028304976_sense_0_comp .
+
+:kmr_9287996565_comp a lexicog:LexicographicComponent .
+:kmr_6594385258_sense_0_comp a lexicog:LexicographicComponent .
+:kmr_2662454445_comp a lexicog:LexicographicComponent .
+:kmr_1189707542_sense_0_comp a lexicog:LexicographicComponent .
+:kmr_1819693629_comp a lexicog:LexicographicComponent .
+:kmr_0080488046_sense_0_comp a lexicog:LexicographicComponent .
+:kmr_3098624360_comp a lexicog:LexicographicComponent .
+:kmr_7337432202_sense_0_comp a lexicog:LexicographicComponent .
+:kmr_8024739279_comp a lexicog:LexicographicComponent .
+:kmr_6587839407_sense_0_comp a lexicog:LexicographicComponent .
+:kmr_4428846815_comp a lexicog:LexicographicComponent .
+:kmr_6192328034_sense_0_comp a lexicog:LexicographicComponent .
+:kmr_4140358135_comp a lexicog:LexicographicComponent .
+:kmr_3514048402_sense_0_comp a lexicog:LexicographicComponent .
+:kmr_7734607660_comp a lexicog:LexicographicComponent .
+:kmr_4791796660_sense_0_comp a lexicog:LexicographicComponent .
+:kmr_6290265038_comp a lexicog:LexicographicComponent .
+:kmr_7844971795_sense_0_comp a lexicog:LexicographicComponent .
+:kmr_0516167955_comp a lexicog:LexicographicComponent .
+:kmr_2079251496_sense_0_comp a lexicog:LexicographicComponent .
+:kmr_0409769573_comp a lexicog:LexicographicComponent .
+:kmr_9191880776_sense_0_comp a lexicog:LexicographicComponent .
+:kmr_4071831077_comp a lexicog:LexicographicComponent .
+:kmr_1390320763_sense_0_comp a lexicog:LexicographicComponent .
+:kmr_2535202920_comp a lexicog:LexicographicComponent .
+:kmr_6116911546_sense_0_comp a lexicog:LexicographicComponent .
+:kmr_9777672340_sense_1_comp a lexicog:LexicographicComponent .
+:kmr_9536758457_comp a lexicog:LexicographicComponent .
+:kmr_1028304976_sense_0_comp a lexicog:LexicographicComponent .
+
+
+# LEXICON ----------------------------------------------------------
+
+:Kurmanji_lexicon a lime:Lexicon ;
+	lime:language "kmr" ;
+	dct:language <www.lexvo.org/page/iso639-3/kmr> ;
+	lime:lexicalEntries "17"^^xsd:integer ;
+	dct:description ""@en ;
+	dct:creator "" ;
+	lime:entry :lex_kmr_9287996565 ;
+	lime:entry :lex_kmr_2662454445 ;
+	lime:entry :lex_kmr_1819693629 ;
+	lime:entry :lex_kmr_3098624360 ;
+	lime:entry :lex_kmr_8024739279 ;
+	lime:entry :lex_kmr_4428846815 ;
+	lime:entry :lex_kmr_4140358135 ;
+	lime:entry :lex_kmr_7734607660 ;
+	lime:entry :lex_kmr_6290265038 ;
+	lime:entry :lex_kmr_0516167955 ;
+	lime:entry :lex_kmr_0409769573 ;
+	lime:entry :lex_kmr_4071831077 ;
+	lime:entry :lex_kmr_2535202920 ;
+	lime:entry :lex_kmr_9399406678 ;
+	lime:entry :lex_kmr_5251087995 ;
+	lime:entry :lex_kmr_9536758457 .
+
+:lex_kmr_9287996565 a ontolex:LexicalEntry, ontolex:Word ;
+	ontolex:canonicalForm :form_kmr_9287996565 ;
+	rdfs:label "abadîn"@kmr-latn ;
+	lexinfo:partOfSpeech lexinfo:adjective ;
+	ontolex:sense :kmr_6594385258_sense .
+
+:form_kmr_9287996565 a ontolex:Form ;
+	dct:language <www.lexvo.org/page/iso639-3/kmr> ;
+	ontolex:writtenRep "abadîn"@kmr-latn .
+
+:en_0522678452 a ontolex:LexicalEntry ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/en> ;
+	rdfs:label "eternal"@en ;
+	ontolex:sense :en_0522678452_sense .
+
+:trans_kmr_6594385258_sense a vartrans:Translation ;
+	vartrans:source :kmr_6594385258_sense ;
+	vartrans:target :en_0522678452_sense .
+
+
+
+:lex_kmr_2662454445 a ontolex:LexicalEntry, ontolex:Word ;
+	ontolex:canonicalForm :form_kmr_2662454445 ;
+	rdfs:label "aborî"@kmr-latn ;
+	lexinfo:partOfSpeech lexinfo:adjective ;
+	ontolex:sense :kmr_1189707542_sense .
+
+:form_kmr_2662454445 a ontolex:Form ;
+	dct:language <www.lexvo.org/page/iso639-3/kmr> ;
+	ontolex:writtenRep "aborî"@kmr-latn .
+
+:en_5892228946 a ontolex:LexicalEntry ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/en> ;
+	rdfs:label "economic, financial"@en ;
+	ontolex:sense :en_5892228946_sense .
+
+:trans_kmr_1189707542_sense a vartrans:Translation ;
+	vartrans:source :kmr_1189707542_sense ;
+	vartrans:target :en_5892228946_sense .
+
+
+
+:lex_kmr_1819693629 a ontolex:LexicalEntry, ontolex:Word ;
+	ontolex:canonicalForm :form_kmr_1819693629 ;
+	rdfs:label "aborî"@kmr-latn ;
+	lexinfo:partOfSpeech lexinfo:noun ;
+	lexinfo:gender lexinfo:feminine ;
+	ontolex:sense :kmr_0080488046_sense .
+
+:form_kmr_1819693629 a ontolex:Form ;
+	dct:language <www.lexvo.org/page/iso639-3/kmr> ;
+	ontolex:writtenRep "aborî"@kmr-latn ;
+	lexinfo:number lexinfo:singular .
+
+:en_1227823452 a ontolex:LexicalEntry ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/en> ;
+	rdfs:label "economy"@en ;
+	ontolex:sense :en_1227823452_sense .
+
+:trans_kmr_0080488046_sense a vartrans:Translation ;
+	vartrans:source :kmr_0080488046_sense ;
+	vartrans:target :en_1227823452_sense .
+
+
+
+:lex_kmr_3098624360 a ontolex:LexicalEntry, ontolex:Word ;
+	ontolex:canonicalForm :form_kmr_3098624360 ;
+	rdfs:label "aborizan"@kmr-latn ;
+	lexinfo:partOfSpeech lexinfo:adjective ;
+	ontolex:sense :kmr_7337432202_sense .
+
+:form_kmr_3098624360 a ontolex:Form ;
+	dct:language <www.lexvo.org/page/iso639-3/kmr> ;
+	ontolex:writtenRep "aborizan"@kmr-latn .
+
+:en_0559555374 a ontolex:LexicalEntry ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/en> ;
+	rdfs:label "economist"@en ;
+	ontolex:sense :en_0559555374_sense .
+
+:trans_kmr_7337432202_sense a vartrans:Translation ;
+	vartrans:source :kmr_7337432202_sense ;
+	vartrans:target :en_0559555374_sense .
+
+
+
+:lex_kmr_8024739279 a ontolex:LexicalEntry, ontolex:Word ;
+	ontolex:canonicalForm :form_kmr_8024739279 ;
+	rdfs:label "ëaciz"@kmr-latn ;
+	lexinfo:partOfSpeech lexinfo:adjective ;
+	ontolex:sense :kmr_6587839407_sense .
+
+:form_kmr_8024739279 a ontolex:Form ;
+	dct:language <www.lexvo.org/page/iso639-3/kmr> ;
+	ontolex:writtenRep "ëaciz"@kmr-latn .
+
+:en_6294707410 a ontolex:LexicalEntry ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/en> ;
+	rdfs:label "helpless, unable to cope"@en ;
+	ontolex:sense :en_6294707410_sense .
+
+:trans_kmr_6587839407_sense a vartrans:Translation ;
+	vartrans:source :kmr_6587839407_sense ;
+	vartrans:target :en_6294707410_sense .
+
+:kmr_6587839407_sense a lexicog:UsageExample ;
+	rdf:value "ez ji kêzikan zehf ëaciz im"@kmr-latn ;
+	rdf:value "I am utterly incapable of coping with bugs"@en .
+
+
+
+:lex_kmr_4428846815 a ontolex:LexicalEntry, ontolex:Word ;
+	ontolex:canonicalForm :form_kmr_4428846815 ;
+	rdfs:label "Adar"@kmr-latn ;
+	lexinfo:partOfSpeech lexinfo:noun ;
+	lexinfo:gender lexinfo:feminine ;
+	ontolex:sense :kmr_6192328034_sense .
+
+:form_kmr_4428846815 a ontolex:Form ;
+	dct:language <www.lexvo.org/page/iso639-3/kmr> ;
+	ontolex:writtenRep "Adar"@kmr-latn ;
+	lexinfo:number lexinfo:singular .
+
+:en_0778566995 a ontolex:LexicalEntry ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/en> ;
+	rdfs:label "March"@en ;
+	ontolex:sense :en_0778566995_sense .
+
+:trans_kmr_6192328034_sense a vartrans:Translation ;
+	vartrans:source :kmr_6192328034_sense ;
+	vartrans:target :en_0778566995_sense .
+
+
+
+:lex_kmr_4140358135 a ontolex:LexicalEntry, ontolex:Word ;
+	ontolex:canonicalForm :form_kmr_4140358135 ;
+	rdfs:label "ëadet"@kmr-latn ;
+	lexinfo:partOfSpeech lexinfo:noun ;
+	lexinfo:gender lexinfo:feminine ;
+	ontolex:sense :kmr_3514048402_sense .
+
+:form_kmr_4140358135 a ontolex:Form ;
+	dct:language <www.lexvo.org/page/iso639-3/kmr> ;
+	ontolex:writtenRep "ëadet"@kmr-latn ;
+	lexinfo:number lexinfo:singular .
+
+:en_0664275890 a ontolex:LexicalEntry ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/en> ;
+	rdfs:label "custom"@en ;
+	ontolex:sense :en_0664275890_sense .
+
+:trans_kmr_3514048402_sense a vartrans:Translation ;
+	vartrans:source :kmr_3514048402_sense ;
+	vartrans:target :en_0664275890_sense .
+
+
+
+:lex_kmr_7734607660 a ontolex:LexicalEntry, ontolex:Word ;
+	ontolex:canonicalForm :form_kmr_7734607660 ;
+	rdfs:label "aferîde"@kmr-latn ;
+	lexinfo:partOfSpeech lexinfo:noun ;
+	lexinfo:gender lexinfo:masculine ;
+	ontolex:sense :kmr_4791796660_sense .
+
+:form_kmr_7734607660 a ontolex:Form ;
+	dct:language <www.lexvo.org/page/iso639-3/kmr> ;
+	ontolex:writtenRep "aferîde"@kmr-latn ;
+	lexinfo:number lexinfo:singular .
+
+:en_4637063177 a ontolex:LexicalEntry ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/en> ;
+	rdfs:label "creature"@en ;
+	ontolex:sense :en_4637063177_sense .
+
+:trans_kmr_4791796660_sense a vartrans:Translation ;
+	vartrans:source :kmr_4791796660_sense ;
+	vartrans:target :en_4637063177_sense .
+
+
+
+:lex_kmr_6290265038 a ontolex:LexicalEntry, ontolex:Word ;
+	ontolex:canonicalForm :form_kmr_6290265038 ;
+	rdfs:label "aferîn"@kmr-latn ;
+	lexinfo:partOfSpeech lexinfo:interjection ;
+	ontolex:sense :kmr_7844971795_sense .
+
+:form_kmr_6290265038 a ontolex:Form ;
+	dct:language <www.lexvo.org/page/iso639-3/kmr> ;
+	ontolex:writtenRep "aferîn"@kmr-latn .
+
+:en_7450639551 a ontolex:LexicalEntry ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/en> ;
+	rdfs:label "bravo"@en ;
+	ontolex:sense :en_7450639551_sense .
+
+:trans_kmr_7844971795_sense a vartrans:Translation ;
+	vartrans:source :kmr_7844971795_sense ;
+	vartrans:target :en_7450639551_sense .
+
+:kmr_7844971795_sense a lexicog:UsageExample ;
+	rdf:value "bravo ji ... re"@kmr-latn ;
+	rdf:value "good for ..."@en .
+
+
+
+:lex_kmr_0516167955 a ontolex:LexicalEntry, ontolex:Word ;
+	ontolex:canonicalForm :form_kmr_0516167955 ;
+	rdfs:label "afirandin"@kmr-latn ;
+	lexinfo:partOfSpeech lexinfo:verb ;
+	ontolex:sense :kmr_2079251496_sense .
+
+:form_kmr_0516167955 a ontolex:Form ;
+	dct:language <www.lexvo.org/page/iso639-3/kmr> ;
+	ontolex:writtenRep "afirandin"@kmr-latn .
+
+:en_2888846456 a ontolex:LexicalEntry ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/en> ;
+	rdfs:label "to create"@en ;
+	ontolex:sense :en_2888846456_sense .
+
+:trans_kmr_2079251496_sense a vartrans:Translation ;
+	vartrans:source :kmr_2079251496_sense ;
+	vartrans:target :en_2888846456_sense .
+
+
+
+:lex_kmr_0409769573 a ontolex:LexicalEntry, ontolex:Word ;
+	ontolex:canonicalForm :form_kmr_0409769573 ;
+	rdfs:label "afîş"@kmr-latn ;
+	lexinfo:partOfSpeech lexinfo:noun ;
+	lexinfo:gender lexinfo:feminine ;
+	ontolex:sense :kmr_9191880776_sense .
+
+:form_kmr_0409769573 a ontolex:Form ;
+	dct:language <www.lexvo.org/page/iso639-3/kmr> ;
+	ontolex:writtenRep "afîş"@kmr-latn ;
+	lexinfo:number lexinfo:singular .
+
+:en_9279016932 a ontolex:LexicalEntry ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/en> ;
+	rdfs:label "poster"@en ;
+	ontolex:sense :en_9279016932_sense .
+
+:trans_kmr_9191880776_sense a vartrans:Translation ;
+	vartrans:source :kmr_9191880776_sense ;
+	vartrans:target :en_9279016932_sense .
+
+
+
+:lex_kmr_4071831077 a ontolex:LexicalEntry, ontolex:Word ;
+	ontolex:canonicalForm :form_kmr_4071831077 ;
+	rdfs:label "aga"@kmr-latn ;
+	lexinfo:partOfSpeech lexinfo:adjective ;
+	ontolex:sense :kmr_1390320763_sense .
+
+:form_kmr_4071831077 a ontolex:Form ;
+	dct:language <www.lexvo.org/page/iso639-3/kmr> ;
+	ontolex:writtenRep "aga"@kmr-latn .
+
+:en_2380805876 a ontolex:LexicalEntry ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/en> ;
+	rdfs:label "aware"@en ;
+	ontolex:sense :en_2380805876_sense .
+
+:trans_kmr_1390320763_sense a vartrans:Translation ;
+	vartrans:source :kmr_1390320763_sense ;
+	vartrans:target :en_2380805876_sense .
+
+
+
+:lex_kmr_2535202920 a ontolex:LexicalEntry, ontolex:Word ;
+	ontolex:canonicalForm :form_kmr_2535202920 ;
+	rdfs:label "agadarî"@kmr-latn ;
+	lexinfo:partOfSpeech lexinfo:noun ;
+	lexinfo:gender lexinfo:feminine ;
+	ontolex:sense :kmr_6116911546_sense, :kmr_9777672340_sense .
+
+:form_kmr_2535202920 a ontolex:Form ;
+	dct:language <www.lexvo.org/page/iso639-3/kmr> ;
+	ontolex:writtenRep "agadarî"@kmr-latn ;
+	lexinfo:number lexinfo:singular .
+
+:en_2252466949 a ontolex:LexicalEntry ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/en> ;
+	rdfs:label "information, announcement"@en ;
+	ontolex:sense :en_2252466949_sense .
+
+:trans_kmr_6116911546_sense a vartrans:Translation ;
+	vartrans:source :kmr_6116911546_sense ;
+	vartrans:target :en_2252466949_sense .
+
+:en_3091592745 a ontolex:LexicalEntry ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/en> ;
+	rdfs:label "awareness"@en ;
+	ontolex:sense :en_3091592745_sense .
+
+:trans_kmr_9777672340_sense a vartrans:Translation ;
+	vartrans:source :kmr_9777672340_sense ;
+	vartrans:target :en_3091592745_sense .
+
+
+
+:lex_kmr_9399406678 a ontolex:LexicalEntry, ontolex:Word ;
+	ontolex:canonicalForm :form_kmr_9399406678 ;
+	rdfs:label "agah"@kmr-latn .
+
+:form_kmr_9399406678 owl:sameAs :form_kmr_4071831077 .
+
+
+
+:lex_kmr_5251087995 a ontolex:LexicalEntry, ontolex:Word ;
+	ontolex:canonicalForm :form_kmr_5251087995 ;
+	rdfs:label "agahdarî"@kmr-latn .
+
+:form_kmr_5251087995 owl:sameAs :form_kmr_2535202920 .
+
+
+
+:lex_kmr_9536758457 a ontolex:LexicalEntry, ontolex:Word ;
+	ontolex:canonicalForm :form_kmr_9536758457 ;
+	rdfs:label "agir"@kmr-latn ;
+	lexinfo:partOfSpeech lexinfo:noun ;
+	lexinfo:gender lexinfo:masculine ;
+	ontolex:sense :kmr_1028304976_sense .
+
+:form_kmr_9536758457 a ontolex:Form ;
+	dct:language <www.lexvo.org/page/iso639-3/kmr> ;
+	ontolex:writtenRep "agir"@kmr-latn ;
+	lexinfo:number lexinfo:singular .
+
+:en_7312021685 a ontolex:LexicalEntry ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/en> ;
+	rdfs:label "fire"@en ;
+	ontolex:sense :en_7312021685_sense .
+
+:trans_kmr_1028304976_sense a vartrans:Translation ;
+	vartrans:source :kmr_1028304976_sense ;
+	vartrans:target :en_7312021685_sense .
+
+
+# LEXICOGRAPHIC RESOURCE - LEXICON RELATIONS -------------------
+
+:kmr_9287996565_comp lexicog:describes :lex_kmr_9287996565 .
+:kmr_6594385258_comp lexicog:describes :kmr_6594385258_sense .
+:kmr_2662454445_comp lexicog:describes :lex_kmr_2662454445 .
+:kmr_1189707542_comp lexicog:describes :kmr_1189707542_sense .
+:kmr_1819693629_comp lexicog:describes :lex_kmr_1819693629 .
+:kmr_0080488046_comp lexicog:describes :kmr_0080488046_sense .
+:kmr_3098624360_comp lexicog:describes :lex_kmr_3098624360 .
+:kmr_7337432202_comp lexicog:describes :kmr_7337432202_sense .
+:kmr_8024739279_comp lexicog:describes :lex_kmr_8024739279 .
+:kmr_6587839407_comp lexicog:describes :kmr_6587839407_sense .
+:kmr_4428846815_comp lexicog:describes :lex_kmr_4428846815 .
+:kmr_6192328034_comp lexicog:describes :kmr_6192328034_sense .
+:kmr_4140358135_comp lexicog:describes :lex_kmr_4140358135 .
+:kmr_3514048402_comp lexicog:describes :kmr_3514048402_sense .
+:kmr_7734607660_comp lexicog:describes :lex_kmr_7734607660 .
+:kmr_4791796660_comp lexicog:describes :kmr_4791796660_sense .
+:kmr_6290265038_comp lexicog:describes :lex_kmr_6290265038 .
+:kmr_7844971795_comp lexicog:describes :kmr_7844971795_sense .
+:kmr_0516167955_comp lexicog:describes :lex_kmr_0516167955 .
+:kmr_2079251496_comp lexicog:describes :kmr_2079251496_sense .
+:kmr_0409769573_comp lexicog:describes :lex_kmr_0409769573 .
+:kmr_9191880776_comp lexicog:describes :kmr_9191880776_sense .
+:kmr_4071831077_comp lexicog:describes :lex_kmr_4071831077 .
+:kmr_1390320763_comp lexicog:describes :kmr_1390320763_sense .
+:kmr_2535202920_comp lexicog:describes :lex_kmr_2535202920 .
+:kmr_6116911546_comp lexicog:describes :kmr_6116911546_sense .
+:kmr_9777672340_comp lexicog:describes :kmr_9777672340_sense .
+:kmr_9536758457_comp lexicog:describes :lex_kmr_9536758457 .
+:kmr_1028304976_comp lexicog:describes :kmr_1028304976_sense .
+
+:kmr_9399406678_entry lexicog:describes :lex_kmr_9399406678 .
+:kmr_5251087995_entry lexicog:describes :lex_kmr_5251087995 .

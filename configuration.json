@@ -1,0 +1,77 @@
+{
+	"source_language": "Kurmanji",
+	"source_language_code": "kmr",
+	"source_language_url": "<www.lexvo.org/page/iso639-3/kmr>",
+	"source_language_script": "latn",
+	"target_language": "English",
+	"target_language_code": "en",
+	"target_language_script": "",
+	"target_language_url": "<http://id.loc.gov/vocabulary/iso639-2/en>",
+	"pos_map": {
+			"(vocative particle)": "particle",
+			"adj": "adjective",
+			"adj ": "adjective",
+			"adj, adv": "adjective",
+			"adv": "adverb",
+			"adv.": "adverb",
+			"adv. ": "adverb",
+			"ccmp.": "circumposition",
+			"conj.": "conjunction",
+			"conjunction": "conjunction",
+			"conj. ": "conjunction",
+			"conj. prep.": "preposition",
+			"enclitic": "cliticness",
+			"excl": "interjection",
+			"excl.": "interjection",
+			"f": "noun",
+			"interj.": "interjection",
+			"interrogative particle": "interrogativeParticle",
+			"m": "noun",
+			"m/f": "noun", 
+			"no": "interjection",
+			"npl": "noun",
+			"num": "numeral",
+			"num.": "numeral",
+			"number": "numeral",
+			"numerical": "numeral",
+			"perp": "preposition",
+			"perp.": "preposition",
+			"prep": "preposition",
+			"prep.": "preposition",
+			"pron.": "pronoun",
+			"pronoun": "pronoun",
+			"pronoun.": "pronoun",
+			"prp": "preposition",
+			"superlative adj": "superlative",
+			"v.c.": "verb",
+			"v.i.": "verb",
+			"v.i. ": "verb",
+			"v.t.": "verb",
+			"v.t. ": "verb",
+			"prefix": "POS",
+			"subjunctive verbal prefix": "POS",
+			"suffix": "POS",
+			"negative subjunctive and imperative prefix": "POS",
+			"": "POS"
+			},
+
+	"gender_map": {
+		"f": "feminine",
+		"m": "masculine",
+		"m/f": "feminine"
+	},
+
+	"number_map": {
+		"npl": "plural",
+		"f": "singular",
+		"m": "singular",
+		"m/f": "singular"
+	},
+
+	"affixes_pos": [
+		"prefix",
+		"subjunctive verbal prefix",
+		"suffix",
+		"negative subjunctive and imperative prefix"
+	]
+}
